@@ -21,9 +21,11 @@ html, body {
 
 /* Main marketing message and sign up button */
 .jumbotron {
+  /*background-image: linear-gradient(to top, #8BC34A, );*/
+  background-image: linear-gradient(to top, #689F38, #8BC34A);
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
-  height: 100%;
+  height: 750px;
 }
 
 .jumbotron .btn {
@@ -44,10 +46,7 @@ html, body {
   margin-top: 28px;
 }
 
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
 
-  /* Remove the padding we set earlier */
   .header,
   .marketing,
   .footer {
@@ -57,12 +56,6 @@ html, body {
 
 
 
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    background-color: #8BC34A;
-    border-bottom: 0;
-  }
-}
 
 
 /* This is for the popout navigation, courtesy of http://codyhouse.co/gem/full-screen-pop-out-navigation/ */
@@ -387,6 +380,6 @@ html, body {
 
 
 /* Testimonial section */
-#testimonials {
-  background-color: blue;
+.testimonials {
+    background-color: #0288D1;
 }
